@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.veysels.hesapmakinesi.MainActivity">
+
+    <Button
+        android:text="8"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sil"
+        android:layout_toRightOf="@+id/yedi"
+        android:layout_toEndOf="@+id/yedi"
+        android:id="@+id/sekiz" />
+
+    <Button
+        android:text="9"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bol"
+        android:layout_toRightOf="@+id/sekiz"
+        android:layout_toEndOf="@+id/sekiz"
+        android:id="@+id/dokuz" />
+
+    <Button
+        android:text="X"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/dokuz"
+        android:layout_toRightOf="@+id/dokuz"
+        android:layout_toEndOf="@+id/dokuz"
+        android:id="@+id/carp" />
+
+    <Button
+        android:text="4"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sekiz"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/dort" />
+
+    <Button
+        android:text="-"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/alti"
+        android:layout_toRightOf="@+id/alti"
+        android:layout_toEndOf="@+id/alti"
+        android:id="@+id/cikar" />
+
+    <Button
+        android:text="5"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bes"
+        android:layout_below="@+id/sekiz"
+        android:layout_toRightOf="@+id/dort"
+        android:layout_toEndOf="@+id/dort" />
+
+    <Button
+        android:text="6"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/alti"
+        android:layout_below="@+id/dokuz"
+        android:layout_toRightOf="@+id/bes"
+        android:layout_toEndOf="@+id/bes" />
+
+    <Button
+        android:text="1"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dort"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/bir" />
+
+    <Button
+        android:text="+"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/uc"
+        android:layout_toRightOf="@+id/uc"
+        android:layout_toEndOf="@+id/uc"
+        android:id="@+id/arti" />
+
+    <Button
+        android:text="2"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/iki"
+        android:layout_below="@+id/bes"
+        android:layout_toRightOf="@+id/bir"
+        android:layout_toEndOf="@+id/bir" />
+
+    <Button
+        android:text="3"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/uc"
+        android:layout_below="@+id/cikar"
+        android:layout_toRightOf="@+id/bes"
+        android:layout_toEndOf="@+id/bes" />
+
+    <Button
+        android:text="="
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/esittir"
+        android:layout_below="@+id/arti"
+        android:layout_toEndOf="@+id/iki"
+        android:layout_toRightOf="@+id/iki" />
+
+    <TextView
+        android:text="0"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/ekran2"
+        android:background="@android:color/darker_gray"
+        android:textStyle="normal|bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="58dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/ekran"
+        android:background="@android:color/darker_gray"
+        android:textStyle="normal|bold"
+        android:text="0"
+        android:textSize="36sp"
+        android:layout_below="@+id/ekran2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="/"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bol"
+        android:layout_alignBaseline="@+id/sil"
+        android:layout_alignBottom="@+id/sil"
+        android:layout_alignRight="@+id/esittir"
+        android:layout_alignEnd="@+id/esittir" />
+
+    <Button
+        android:text="7"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/yedi"
+        android:layout_below="@+id/c"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/c"
+        android:text="SIFIRLA"
+        android:layout_below="@+id/ekran"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="21dp"
+        android:layout_toLeftOf="@+id/sil"
+        android:layout_toStartOf="@+id/sil" />
+
+    <Button
+        android:text="sil"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/sil"
+        android:layout_alignBaseline="@+id/c"
+        android:layout_alignBottom="@+id/c"
+        android:layout_toLeftOf="@+id/bol"
+        android:layout_toStartOf="@+id/bol" />
+
+    <TextView
+        android:text="inönü üNİVERSİTESİ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp"
+        android:id="@+id/textView2"
+        android:layout_alignRight="@+id/bol"
+        android:layout_alignEnd="@+id/bol"
+        android:textStyle="normal|bold"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <Button
+        android:text="0"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/sifir"
+        android:layout_below="@+id/bir"
+        android:layout_toLeftOf="@+id/sil"
+        android:layout_toRightOf="@+id/bir"
+        android:layout_toEndOf="@+id/bir" />
+
+    <Button
+        android:text=","
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/sifir"
+        android:id="@+id/nokta"
+        android:layout_below="@+id/bir"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
